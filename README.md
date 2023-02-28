@@ -29,7 +29,7 @@ In this paper, we present **LPFF**, a large-pose Flickr face dataset comprised o
 
 ### Usage
 
-**Our [pretrained models](https://github.com/oneThousand1000/LPFF-dataset/tree/main/networks) are available!** ✨ ✨ 
+**Our [pretrained models](https://github.com/oneThousand1000/LPFF-dataset/tree/master/networks) are available!** ✨ ✨ 
 
 ### Available sources
 
