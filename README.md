@@ -41,8 +41,8 @@ In this paper, we present **LPFF**, a large-pose Flickr face dataset comprised o
 
 |                     | Description                                                  |
 | ------------------- | ------------------------------------------------------------ |
-| [dataset]()         | Dataset download. (Will be released after the acceptance of our paper.  We released 1,000 example images [here](https://github.com/lpffdataset/LPFF-Dataset).) |
-| [data_processing]() | Data processing codes and data download links. Including image alignment, camera parameters extraction, and dataset rebalance. (Will be released after the acceptance of our paper.) |
+| [dataset]()         | Dataset download. (We released 1,000 example images [here](https://github.com/lpffdataset/LPFF-Dataset).) |
+| [data_processing]() | Data processing codes and data download links. Including image alignment, camera parameters extraction, and dataset rebalance. |
 
 ### Citation
 
