@@ -52,7 +52,7 @@ In this paper, we present **LPFF**, a large-pose Flickr face dataset comprised o
 | [dataset](https://github.com/oneThousand1000/LPFF-dataset/tree/master/dataset_download) | Dataset download.                                            |
 | [data_processing](https://github.com/oneThousand1000/LPFF-dataset/tree/master/data_processing) | Data processing codes and data download links. Including image alignment, camera parameters extraction, and dataset rebalance. |
 | [training](https://github.com/oneThousand1000/LPFF-dataset/tree/master/training) | Model training and FID computation guidance.                 |
-| [networks](https://github.com/oneThousand1000/LPFF-dataset/tree/main/networks) | Pretrained StyleGAN2-ada and EG3D models trained on the LPFF+FFHQ  dataset. |
+| [networks](https://github.com/oneThousand1000/LPFF-dataset/tree/master/networks) | Pretrained StyleGAN2-ada and EG3D models trained on the LPFF+FFHQ  dataset. |
 
 
 
