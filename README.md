@@ -5,11 +5,11 @@
 
 
 
-> **[ArXiv] [LPFF: A Portrait Dataset for Face Generators Across Large Poses]()**
+> **[ICCV 2023] [LPFF: A Portrait Dataset for Face Generators Across Large Poses]()**
 >
 > [Yiqian Wu](https://onethousandwu.com/), Jing Zhang, [Hongbo Fu](http://sweb.cityu.edu.hk/hongbofu/publications.html), [Xiaogang Jin*](http://www.cad.zju.edu.cn/home/jin)
 
-[[Paper\]](https://arxiv.org/abs/2303.14407) [[Video\]](coming soon) [[Suppl\]](https://drive.google.com/file/d/1Xktg7oqMMNN9hqGYva3BBTJoux17y2SR/view?usp=sharing) [[Project Page\]](coming soon)
+[Paper](https://arxiv.org/abs/2303.14407)              [Video](coming soon)               [Suppl](https://drive.google.com/file/d/1Xktg7oqMMNN9hqGYva3BBTJoux17y2SR/view?usp=sharing)               [Project Page](coming soon)
 
 
 
@@ -27,6 +27,9 @@ In this paper, we present **LPFF**, a large-pose Flickr face dataset comprised o
 
 ### News  ✨ ✨ 
 
+- [2023-07-14] Our paper is **accepted by ICCV 2023**!
+- [2023-07-14] Our dataset, data processing code and training code are available now.
+
 - [2023-03-28] The paper pdf is available: [[2303.14407\] LPFF: A Portrait Dataset for Face Generators Across Large Poses (arxiv.org)](https://arxiv.org/abs/2303.14407)
 - [2023-03-28] The supplementary pdf is available: [Google Drive](https://drive.google.com/file/d/1Xktg7oqMMNN9hqGYva3BBTJoux17y2SR/view?usp=sharing)
 
@@ -36,20 +39,24 @@ In this paper, we present **LPFF**, a large-pose Flickr face dataset comprised o
 
 ### Usage
 
-**Our [pretrained models](https://github.com/oneThousand1000/LPFF-dataset/tree/master/networks) are available!**
+**Our [dataset](https://github.com/oneThousand1000/LPFF-dataset/tree/main/dataset_download), [code](https://github.com/oneThousand1000/LPFF-dataset/tree/main/data_processing), and [pretrained models](https://github.com/oneThousand1000/LPFF-dataset/tree/main/networks) are available now!** ✨ ✨ 
+
+**For those who want to use our dataset, please first [download](https://github.com/oneThousand1000/LPFF-dataset/tree/main/dataset_download) the cropped images and predicted parameters, then [add them to the FFHQ dataset](https://github.com/oneThousand1000/LPFF-dataset-debug-version/tree/main/data_processing#step2-eg3d-and-stylegan-datasets), and finally [perform dataset rebalance](https://github.com/oneThousand1000/LPFF-dataset/tree/main/data_processing#step-3-data-distribution-analysis-and-dataset-rebalance).**
+
+
 
 ### Available sources
 
 |                                                              | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| [networks](https://github.com/oneThousand1000/LPFF-dataset/tree/master/networks) | Pretrained StyleGAN2-ada and EG3D models trained on the LPFF+FFHQ  dataset. |
+| [dataset](https://github.com/oneThousand1000/LPFF-dataset/tree/main/dataset_download) | Dataset download.                                            |
+| [data_processing](https://github.com/oneThousand1000/LPFF-dataset/tree/main/data_processing) | Data processing codes and data download links. Including image alignment, camera parameters extraction, and dataset rebalance. |
+| [training](https://github.com/oneThousand1000/LPFF-dataset/tree/main/training) | Model training and FID computation guidance.                 |
+| [networks](https://github.com/oneThousand1000/LPFF-dataset/tree/main/networks) | Pretrained StyleGAN2-ada and EG3D models trained on the LPFF+FFHQ  dataset. |
 
-### TODO
 
-|                     | Description                                                  |
-| ------------------- | ------------------------------------------------------------ |
-| [dataset]()         | Dataset download. (We released 1,000 example images [here](https://github.com/lpffdataset/LPFF-Dataset).) |
-| [data_processing]() | Data processing codes and data download links. Including image alignment, camera parameters extraction, and dataset rebalance. |
+
+ 
 
 ### Citation
 
