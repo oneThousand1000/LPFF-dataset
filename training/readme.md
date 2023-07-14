@@ -6,8 +6,8 @@ Clone our eg3d and stylegan2-ada-pytorch repos.
 
 ```
 cd training
-git clone git@github.com:oneThousand1000/eg3d.git
-git clone git@github.com:oneThousand1000/stylegan2-ada-pytorch.git
+git clone git@github.com:oneThousand1000/LPFF-eg3d.git
+git clone git@github.com:oneThousand1000/LPFF-stylegan2-ada-pytorch.git
 ```
 
 ## Training
