@@ -28,34 +28,23 @@ if __name__ == '__main__':
         vis_theta.append([])
         vis_phi.append([])
 
+    with open('./files/lpff_ffhq_rebal.json','r') as f:
+        duplicate_num_dict = json.load(f)
     for i in range(thetas_all.shape[0]):
         pbar.update(1)
         theta = thetas_all[i]
         phi = phis_all[i]
         density = all_densitys[i]
-
-
         # duplicate_num = int(min(max(round(4 * 0.06 / density), 1), 4))
+        # # if density < 0.01:
+        # #     duplicate_num = 7
+        # #     count+=1
+        # # el
         # if density < 0.02:
         #     duplicate_num = 6
         # elif density < 0.03:
         #     duplicate_num = 5
-
-        if density> 0.1:
-            duplicate_num = 1
-        elif density > 0.06:
-            duplicate_num = 2
-        elif density > 0.04:
-            duplicate_num = 3
-        elif density > 0.02:
-            duplicate_num = 4
-        elif density > 0.01:
-            duplicate_num = 5
-        else:
-            duplicate_num = 6
-
-
-
+        duplicate_num = duplicate_num_dict[str(i)]
         vis_theta[duplicate_num].append(theta)
         vis_phi[duplicate_num].append(phi)
         for index in range(int(duplicate_num)):
@@ -70,7 +59,7 @@ if __name__ == '__main__':
         f.write(data)
 
     plt.figure(figsize=(8, 8))
-    for i in range(1, 8):
+    for i in range(1, 7):
         plt.scatter(
             np.array(vis_theta[i]) / np.pi * 180, np.array(vis_phi[i]) / np.pi * 180,  # 纵坐标
             c=color[i], s=2, alpha=0.5, label=f'duplicate {i}', rasterized=True)
@@ -95,5 +84,7 @@ if __name__ == '__main__':
     plt.tight_layout(pad=0.4, w_pad=0.4, h_pad=0.4)
     # 显示所绘图形
     plt.savefig('./imgs/ffhq_lpff_rebal.png', dpi=100, format='png',
+                bbox_inches='tight')
+    plt.savefig('./imgs/ffhq_lpff_rebal.pdf', dpi=100, format='pdf',
                 bbox_inches='tight')
     plt.show()
