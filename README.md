@@ -47,6 +47,8 @@ In this paper, we present **LPFF**, a large-pose Flickr face dataset comprised o
 
 ### Available sources
 
+Notice: We have uploaded all the data using OneDrive, and the shared link should be updated every two months. If you find that the link is not working, please contact us to update it.
+
 |                                                              | Description                                                  |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | [dataset](https://github.com/oneThousand1000/LPFF-dataset/tree/master/dataset_download) | Dataset download.                                            |
@@ -56,7 +58,11 @@ In this paper, we present **LPFF**, a large-pose Flickr face dataset comprised o
 
 
 
- 
+### Contact
+
+ [onethousand@zju.edu.cn](mailto:onethousand@zju.edu.cn) / [onethousand1250@gmail.com](mailto:onethousand1250@gmail.com)
+
+
 
 ### Citation
 
