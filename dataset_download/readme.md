@@ -30,7 +30,11 @@ For detailed information and analysis, please refer to our [supplement file]().
 
 
 
-**download:**   [LPFF-dataset](https://zjueducn-my.sharepoint.com/:f:/g/personal/onethousand_zju_edu_cn/EipRJ01HXsdAihMjwXSqHS0BpGlyqrrWLapNIWGmE9x-ig?e=W5zdfu)
+**download:**  
+
+[Onedrive](https://zjueducn-my.sharepoint.com/:f:/g/personal/onethousand_zju_edu_cn/EipRJ01HXsdAihMjwXSqHS0BpGlyqrrWLapNIWGmE9x-ig?e=nNR0RS)  
+
+[Hugging Face](https://huggingface.co/datasets/onethousand/LPFF/tree/main/LPFF-dataset)
 
 | Dir/file                 | Description                                                  | Files  | Example (e.g., image id = `100004356@N06_21795165006_01`)    |
 | ------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
@@ -64,7 +68,11 @@ For detailed information and analysis, please refer to our [supplement file]().
 
 
 
-**download:**  [Unsplash-Pexels-dataset](https://zjueducn-my.sharepoint.com/:f:/g/personal/onethousand_zju_edu_cn/ErWuktR6pNZIj5R82pH2FpAB5pW06HtTGrCfXCi-2sY1WA?e=vwrbEX)
+**download:** 
+
+[Onedrive](https://zjueducn-my.sharepoint.com/:f:/g/personal/onethousand_zju_edu_cn/ErWuktR6pNZIj5R82pH2FpAB5pW06HtTGrCfXCi-2sY1WA?e=Iox78t)
+
+[Hugging Face](https://huggingface.co/datasets/onethousand/LPFF/tree/main/Unsplash-Pexels-dataset)
 
 | Dir/file                 | Description                                                  | Files  | Example  (e.g., image id = `guess-attic-girl-woman-pretty_01`) |
 | ------------------------ | ------------------------------------------------------------ | ------ | ------------------------------------------------------------ |
