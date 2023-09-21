@@ -28,23 +28,23 @@ if __name__ == '__main__':
         vis_theta.append([])
         vis_phi.append([])
 
-    with open('./files/lpff_ffhq_rebal.json','r') as f:
-        duplicate_num_dict = json.load(f)
+    # with open('./files/lpff_ffhq_rebal.json','r') as f:
+    #     duplicate_num_dict = json.load(f)
     for i in range(thetas_all.shape[0]):
         pbar.update(1)
         theta = thetas_all[i]
         phi = phis_all[i]
         density = all_densitys[i]
-        # duplicate_num = int(min(max(round(4 * 0.06 / density), 1), 4))
-        # # if density < 0.01:
-        # #     duplicate_num = 7
-        # #     count+=1
-        # # el
-        # if density < 0.02:
-        #     duplicate_num = 6
-        # elif density < 0.03:
-        #     duplicate_num = 5
-        duplicate_num = duplicate_num_dict[str(i)]
+        duplicate_num = int(min(max(round(4 * 0.06 / density), 1), 4))
+        # if density < 0.01:
+        #     duplicate_num = 7
+        #     #count+=1
+        # el
+        if density < 0.02:
+            duplicate_num = 6
+        elif density < 0.03:
+            duplicate_num = 5
+        #duplicate_num = duplicate_num_dict[str(i)]
         vis_theta[duplicate_num].append(theta)
         vis_phi[duplicate_num].append(phi)
         for index in range(int(duplicate_num)):
