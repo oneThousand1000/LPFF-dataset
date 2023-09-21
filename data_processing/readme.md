@@ -140,7 +140,7 @@ In [EG3D](https://github.com/NVlabs/eg3d/blob/main/dataset_preprocessing/mirror_
 
 :grey_exclamation::grey_exclamation: In this repo, please **rename the 139,914 images in the *FFHQ-EG3D* `{00000.png,00000_mirror.png,...,69999.png,69999_mirror.png}` as `{img00000000.png,img00000001.png,...,img000139912.png,img000139913.png}`**, and put each `img{ID:08d}.png` into the folder  `PATH_FFHQ_EG3D/{int(ID//1000):05d}`
 
-Then download the [dataset-ffhq.json](https://zjueducn-my.sharepoint.com/:u:/g/personal/onethousand_zju_edu_cn/EVwJ5qkVmcJKgIQMz9soMv4BGKV1qdO9Y2mwro5V6ELNDQ?e=9FspJO), and put it to `PATH_FFHQ_EG3D`. 
+Then download the dataset-ffhq.json from [OneDrive](https://zjueducn-my.sharepoint.com/:u:/g/personal/onethousand_zju_edu_cn/EVwJ5qkVmcJKgIQMz9soMv4BGKV1qdO9Y2mwro5V6ELNDQ?e=f6af4r) or [huggingface](https://huggingface.co/datasets/onethousand/LPFF/tree/main/files), and put it to `PATH_FFHQ_EG3D`. 
 
 
 

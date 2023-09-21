@@ -12,7 +12,7 @@ So if you need a full dataset, please [**ADD** our dataset to ***FFHQ*** dataset
 
 Besides simply combining ***LPFF*** and ***FFHQ***, please further rebalance the dataset using our [rebalance strategy](https://github.com/oneThousand1000/LPFF-dataset/tree/main/data_processing#step-3-data-distribution-analysis-and-dataset-rebalance).
 
-For detailed information and analysis, please refer to our [main paper](). 
+For detailed information and analysis, please refer to our [main paper](https://arxiv.org/abs/2303.14407). 
 
 ![distribution](./images/distribution.jpg)
 
