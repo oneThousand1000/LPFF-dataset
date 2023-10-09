@@ -5,11 +5,11 @@
 
 
 
-> **[ICCV 2023] [LPFF: A Portrait Dataset for Face Generators Across Large Poses]()**
+> **[ICCV 2023] [LPFF: A Portrait Dataset for Face Generators Across Large Poses](https://openaccess.thecvf.com/content/ICCV2023/html/Wu_LPFF_A_Portrait_Dataset_for_Face_Generators_Across_Large_Poses_ICCV_2023_paper.html)**
 >
 > [Yiqian Wu](https://onethousandwu.com/), Jing Zhang, [Hongbo Fu](http://sweb.cityu.edu.hk/hongbofu/publications.html), [Xiaogang Jin*](http://www.cad.zju.edu.cn/home/jin)
 
-[Paper](https://arxiv.org/abs/2303.14407)              [Video](http://www.cad.zju.edu.cn/home/jin/iccv2023/demo.mp4)               [Suppl](https://drive.google.com/file/d/1Xktg7oqMMNN9hqGYva3BBTJoux17y2SR/view?usp=sharing)               [Project Page](http://www.cad.zju.edu.cn/home/jin/iccv2023/iccv2023.htm)
+[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Wu_LPFF_A_Portrait_Dataset_for_Face_Generators_Across_Large_Poses_ICCV_2023_paper.html)              [Video](http://www.cad.zju.edu.cn/home/jin/iccv2023/demo.mp4)               [Suppl](https://drive.google.com/file/d/1Xktg7oqMMNN9hqGYva3BBTJoux17y2SR/view?usp=sharing)               [Project Page](http://www.cad.zju.edu.cn/home/jin/iccv2023/iccv2023.htm)
 
 
 
@@ -69,14 +69,13 @@ Notice: We have uploaded all the data using OneDrive, and the shared link should
 If you find this project helpful to your research, please consider citing:
 
 ```
-@inproceedings{wu2023iccvlpff,
-  author       = {Yiqian Wu and Jing Zhang and Hongbo Fu and Xiaogang Jin},
-  title        = {LPFF: A Portrait Dataset for Face Generators Across Large Poses},
-  booktitle    = {2023 {IEEE/CVF} International Conference on Computer Vision, {ICCV}, France, October 2-3, 2023},
-  publisher    = {{IEEE}},
-  year         = {2023},
+@InProceedings{Wu_2023_ICCV,
+    author    = {Wu, Yiqian and Zhang, Jing and Fu, Hongbo and Jin, Xiaogang},
+    title     = {LPFF: A Portrait Dataset for Face Generators Across Large Poses},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {20327-20337}
 }
-
-
 ```
 
