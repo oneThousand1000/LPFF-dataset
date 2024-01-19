@@ -39,9 +39,9 @@ In this paper, we present **LPFF**, a large-pose Flickr face dataset comprised o
 
 ### Usage
 
-**Our [dataset](https://github.com/oneThousand1000/LPFF-dataset/tree/main/dataset_download), [code](https://github.com/oneThousand1000/LPFF-dataset/tree/main/data_processing), and [pretrained models](https://github.com/oneThousand1000/LPFF-dataset/tree/main/networks) are available now!** ✨ ✨ 
+**Our [dataset](https://github.com/oneThousand1000/LPFF-dataset/tree/master/dataset_download), [code](https://github.com/oneThousand1000/LPFF-dataset/tree/master/data_processing), and [pretrained models](https://github.com/oneThousand1000/LPFF-dataset/tree/master/networks) are available now!** ✨ ✨ 
 
-**For those who want to use our dataset, please first [download](https://github.com/oneThousand1000/LPFF-dataset/tree/main/dataset_download) the cropped images and predicted parameters, then [add them to the FFHQ dataset](https://github.com/oneThousand1000/LPFF-dataset-debug-version/tree/main/data_processing#step2-eg3d-and-stylegan-datasets), and finally [perform dataset rebalance](https://github.com/oneThousand1000/LPFF-dataset/tree/main/data_processing#step-3-data-distribution-analysis-and-dataset-rebalance).**
+**For those who want to use our dataset, please first [download](https://github.com/oneThousand1000/LPFF-dataset/tree/master/dataset_download) the cropped images and predicted parameters, then [add them to the FFHQ dataset](https://github.com/oneThousand1000/LPFF-dataset-debug-version/tree/master/data_processing#step2-eg3d-and-stylegan-datasets), and finally [perform dataset rebalance](https://github.com/oneThousand1000/LPFF-dataset/tree/master/data_processing#step-3-data-distribution-analysis-and-dataset-rebalance).**
 
 
 
