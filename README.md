@@ -9,7 +9,7 @@
 >
 > [Yiqian Wu](https://onethousandwu.com/), Jing Zhang, [Hongbo Fu](http://sweb.cityu.edu.hk/hongbofu/publications.html), [Xiaogang Jin*](http://www.cad.zju.edu.cn/home/jin)
 
-[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Wu_LPFF_A_Portrait_Dataset_for_Face_Generators_Across_Large_Poses_ICCV_2023_paper.html)              [Video](http://www.cad.zju.edu.cn/home/jin/iccv2023/demo.mp4)               [Suppl](https://drive.google.com/file/d/1Xktg7oqMMNN9hqGYva3BBTJoux17y2SR/view?usp=sharing)               [Project Page](http://www.cad.zju.edu.cn/home/jin/iccv2023/iccv2023.htm)
+[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Wu_LPFF_A_Portrait_Dataset_for_Face_Generators_Across_Large_Poses_ICCV_2023_paper.html)              [Video](https://youtu.be/faj0A9v2gxo)               [Suppl](https://drive.google.com/file/d/1Xktg7oqMMNN9hqGYva3BBTJoux17y2SR/view?usp=sharing)               [Project Page](https://onethousandwu.com/LPFF.github.io/)
 
 
 
