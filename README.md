@@ -9,8 +9,16 @@
 >
 > [Yiqian Wu](https://onethousandwu.com/), Jing Zhang, [Hongbo Fu](http://sweb.cityu.edu.hk/hongbofu/publications.html), [Xiaogang Jin*](http://www.cad.zju.edu.cn/home/jin)
 
-[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Wu_LPFF_A_Portrait_Dataset_for_Face_Generators_Across_Large_Poses_ICCV_2023_paper.html)              [Video](https://youtu.be/faj0A9v2gxo)               [Suppl](https://drive.google.com/file/d/1Xktg7oqMMNN9hqGYva3BBTJoux17y2SR/view?usp=sharing)               [Project Page](https://onethousandwu.com/LPFF.github.io/)
+<div align="center">
 
+[![Project](https://img.shields.io/badge/LPFF-1?label=Project&color=8B93FF)](https://onethousandwu.com/LPFF.github.io/)
+[![Paper](https://img.shields.io/badge/Main%20Paper-1?color=58A399)](https://openaccess.thecvf.com/content/ICCV2023/html/Wu_LPFF_A_Portrait_Dataset_for_Face_Generators_Across_Large_Poses_ICCV_2023_paper.html)
+[![Suppl](https://img.shields.io/badge/Supplementary-1?color=378CE7)](https://drive.google.com/file/d/1Xktg7oqMMNN9hqGYva3BBTJoux17y2SR/view?usp=sharing)
+[![Video](https://img.shields.io/badge/Video-1?color=FDA403)](https://youtu.be/faj0A9v2gxo)
+[![Dataset](https://img.shields.io/badge/Dataset-1?color=FC819E)](https://github.com/oneThousand1000/LPFF-dataset)
+[![Github](https://img.shields.io/github/stars/oneThousand1000/LPFF-dataset)](https://github.com/oneThousand1000/LPFF-dataset)
+
+</div>
 
 
 The creation of 2D realistic facial images and 3D face shapes using generative networks has been a hot topic in recent years. Existing face generators exhibit exceptional performance on faces in small to medium poses (with respect to frontal faces), but struggle to produce realistic results for large poses. The distorted rendering results on large poses in 3D-aware generators further show that the generated 3D face shapes are far from the distribution of 3D faces in reality. We find that the above issues are caused by the training dataset's posture imbalance. 
